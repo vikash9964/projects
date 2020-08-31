@@ -1,5 +1,5 @@
 import { Component } from "react";
-//import config from 'config';
+
 
 export class Services extends Component {
 
@@ -19,8 +19,9 @@ export class Services extends Component {
         }).then(function(data){
             if(data.status){   
                 
-                console.log(data.token);
+                console.log(data.data._id);
                 localStorage.setItem('apptoken', data.token);
+                localStorage.setItem('userID', data.data._id);
                 return data;
             }else {
                 return data;
@@ -64,5 +65,7 @@ export class Services extends Component {
         return true;
 
     } 
+
+    
 
 }

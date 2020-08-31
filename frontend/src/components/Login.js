@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import { Services } from "./../services/Services";
 import { history } from '../helpers';
 
-
-
 class Login extends Component {
 	constructor(props) {
 		super(props);

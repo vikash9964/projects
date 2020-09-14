@@ -1,0 +1,28 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikash Rathore",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "express-handlebars": "^5.1.0",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0"
+  }
+}
